@@ -10,7 +10,7 @@ class Marvin extends AbstractProvider
 {
     use BearerAuthorizationTrait;
 
-    const AUTH_URL = 'https://api.intrav2.42.fr/v2/oauth/authorize';
+    const AUTH_URL = 'https://api.intra.42.fr/v2/oauth/authorize';
     
     /**
      * Get authorization url to begin OAuth flow
